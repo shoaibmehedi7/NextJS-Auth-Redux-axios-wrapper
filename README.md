@@ -1,4 +1,13 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Configure your local environment
+Copy the .env.local.example file in this directory to .env.local (which will be ignored by Git):
+
+```bash
+cp .env.local.example .env.local
+```
+
+Add details for one or more providers (e.g. Google, Twitter, GitHub, Email, etc).
+
 
 ## Getting Started
 
