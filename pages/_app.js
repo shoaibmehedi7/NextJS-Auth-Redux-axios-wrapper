@@ -1,7 +1,7 @@
 import { Provider } from 'next-auth/client'
 import { wrapper } from '../redux/store'
 import './styles.css'
-
+import '../styles/antd.less'
 // Use the <Provider> to improve performance and allow components that call
 // `useSession()` anywhere in your application to access the `session` object.
 const MyApp = ({ Component, pageProps }) => {
